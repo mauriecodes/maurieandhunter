@@ -613,7 +613,7 @@ input[type=radio]:checked:before {
     left: 0;
     overflow-y: scroll;
     z-index: 1001;
-    background: #F6F1F0;
+    background: black;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -669,7 +669,7 @@ input[type=radio]:checked:before {
     text-align: center;
     font-size: 10px;
     letter-spacing: 5px;
-    color: #000;
+    color: #F6F1F0;
     margin-bottom: 5px;
 }
 
@@ -725,7 +725,7 @@ input[type=radio]:checked:before {
 }
 
 #oliven-aside .oliven-main-menu ul li a {
-    color: #000;
+    color: #F6F1F0;
     text-decoration: none;
     position: relative;
     padding: 0;
@@ -1191,7 +1191,7 @@ body.offcanvas .oliven-nav-toggle {
     margin-top: 10px;
 }
 
-.bridegroom .info .social {
+/* .bridegroom .info .social {
     margin-top: 10px;
 }
 
@@ -1211,7 +1211,7 @@ body.offcanvas .oliven-nav-toggle {
     background-color: #BD945A;
     border-color: #BD945A;
     color: #fff;
-}
+} */
 
 .bridegroom .toright .img {
     float: right;
@@ -1938,7 +1938,7 @@ body.offcanvas .oliven-nav-toggle {
 .preloader {
     width: 100%;
     height: 100%;
-    background: #fff;
+    background: black;
     position: fixed;
     top: 0;
     left: 0;
