@@ -114,11 +114,11 @@ a:link {
 a:focus {
     outline: none;
 }
-
+/* 
 img {
     width: 100%;
-    height: auto;
-}
+    /* height: auto; */
+} */
 
 .small,
 small {
@@ -1697,6 +1697,10 @@ body.offcanvas .oliven-nav-toggle {
 .whenwhere .item .whenwhere-img {
     position: relative;
     overflow: hidden;
+    width: 500px;
+    height: 300px;
+    /* border-radius: 50%; */
+    /* float: left; */
 }
 
 .whenwhere .item .whenwhere-img:hover img {
